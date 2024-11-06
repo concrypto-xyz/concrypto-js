@@ -1,7 +1,7 @@
 {
 	"name": "pay-with-crypto",
 	"version": "0.0.1",
-	"description": "",
+	"description": "API to interacting with Pay with crypto services",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
@@ -26,5 +26,8 @@
 	"devDependencies": {
 		"tsup": "^8.3.5",
 		"typescript": "^5.6.3"
+	},
+	"dependencies": {
+		"axios": "^1.7.7"
 	}
 }
