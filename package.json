@@ -1,15 +1,30 @@
 {
-  "name": "pay-with-crypto-js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tsup": "^8.3.5"
-  }
+	"name": "pay-with-crypto",
+	"version": "0.0.1",
+	"description": "",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"files": [
+		"dist/**/*.js",
+		"dist/**/*.d.ts",
+		"dist/**/*.mjs"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsup src/index.ts --format cjs,esm --dts",
+		"prepublish": "npm run build",
+		"publish": "npm publish --access public"
+	},
+	"keywords": [],
+	"author": "Manuel Rivera",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pay-with-crypto/pay-with-crypto-js"
+	},
+	"license": "Apache-2.0",
+	"devDependencies": {
+		"tsup": "^8.3.5",
+		"typescript": "^5.6.3"
+	}
 }
