@@ -1,5 +1,5 @@
 {
-	"name": "pay-with-crypto",
+	"name": "concrypto-js",
 	"version": "0.0.1",
 	"description": "API to interacting with Pay with crypto services",
 	"main": "dist/index.js",
