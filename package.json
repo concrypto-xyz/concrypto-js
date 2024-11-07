@@ -1,7 +1,7 @@
 {
 	"name": "concrypto-js",
-	"version": "0.0.1",
-	"description": "API to interacting with Pay with crypto services",
+	"version": "0.0.2",
+	"description": "API to interacting with ConCrypto services",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
